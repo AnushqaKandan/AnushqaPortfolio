@@ -1,0 +1,68 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/*Custom Variable */
+:root {
+    --primary: rgb(243, 131, 149) ;
+    --secondary: white ;
+    --alternative: black ;
+    --bgHeaderFooter: maroon ;
+    --awesome: aqua ;
+    --bgCaAbout: aquamarine ;
+    --mainBox-shadow: black ;
+    --card-box-shadow:var(--primary)
+    --text-shadow:var(--primary)
+    --mainBg:var(--primary)
+    --bgImg:
+}
+@property --top-left {
+    syntax:"<percentage>";
+    inherits: false;
+    initial-value:50%;
+}
+@property --top-right{
+    syntax: "<Percentage>";
+    inherits: false;
+    initial-value:50%;
+}
+@property --bottom-left{
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value:0%;
+}
+@property --bottom-right {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value:0%;
+}
+/*Navbar & footer*/
+:is(.navbar, footer){
+    background-color: var(--bgHeaderFooter);
+}
+
+/* Navbar */
+:is(.nav-link) {
+    color: var(--secondary);
+}
+
+img[alt='logo'] {
+    width: 5rem;
+    aspect-ratio: 1/1; /*maintain the height based on the width*/
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+
+
+
+
+
+
