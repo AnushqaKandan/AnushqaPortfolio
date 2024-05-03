@@ -59,6 +59,10 @@ img[alt='logo'] {
     
 }
 
+:is(.lead) {
+    color:var(--secondary);
+}
+
 
 
 
