@@ -10,17 +10,16 @@
 }
 /*Custom Variable */
 :root {
-    --primary: pink ;
-    --secondary: white ;
-    --alternative: green ;
-    --bgHeaderFooter: maroon ;
-    --awesome: aqua ;
-    --bgCaAbout: aquamarine ;
-    --mainBox-shadow: black ;
-    --card-box-shadow:var(--primary)
-    --text-shadow:var(--primary)
-    --mainBg:var(--primary)
-    --bgImg:
+    --primary: rgb(243, 131, 149) ;
+    --secondary: white;
+    --alternative: black;
+    --bgHeaderFooter: maroon;
+    --awesome: aqua;
+    --bgCaAbout: aquamarine;
+    --mainBox-shadow: black;
+    --card-box-shadow:var(--primary);
+    --text-shadow:var(--primary);
+    --mainBg:var(--primary);
 }
 @property --top-left {
     syntax:"<percentage>";
