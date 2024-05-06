@@ -62,9 +62,9 @@ img[alt='logo'] {
 
 /*Grid Layout*/
 :is(body) {
-    display: grid;
     text-align: center;
     background-color: var(--primary);
+    font-family: 
 }
 
 /*Create three rows*/
@@ -81,16 +81,49 @@ a {
     text-decoration: underline;
    }
 }
+.display-2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* Home Image */
+img[alt='profile'] {
+    width: 25rem;
+    margin-right: 150px;
+}
+
+.lead {
+    font-weight: bold;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 4rem;
+    /* line-height: 25rem; */
+
+}
+
+.slogan{
+    font-weight: bold;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 2rem;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /* About */
-:is(.card) {
+.card {
     width: 800px;
     margin-left: 300px;
     background-color: var(--tertiary)
 }
 
 /* About text */
-:is(.card-text){
+.card-text{
     color: var(--secondary);
 }
 
