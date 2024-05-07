@@ -60,6 +60,7 @@ img[alt='logo'] {
 }
 
 
+
 /*Grid Layout*/
 :is(body) {
     text-align: center;
@@ -82,6 +83,8 @@ a {
 
    }
 }
+
+
 .display-2{
     font-weight: bold;
     font-size: 3rem;
@@ -93,6 +96,7 @@ img[alt='profile'] {
     border-color: var(--tertiary);
     border-radius: 20%;
 }
+
 
 .lead {
     font-weight: bold;
@@ -147,6 +151,48 @@ img[alt='profile'] {
     text-align: left;
 }
 
+/* Testimonial */
+
+img[alt='profile1'] {
+   width: 15rem;
+   border-radius: 50%;
+   margin-left: 10rem;
+   position: relative;
+   top: 10px;
+    
+}
+@media only screen and (max-width: 767px) {
+    img[alt='profile1'] {
+        width: 100%; 
+        margin-left: 0; 
+}
+}
+
+.Testi-block{
+    width: 35rem;
+    margin-left: 23rem
+}
+
+@media only screen and (max-width: 767px) {
+    .Testi-block {
+        width: 100%;
+        margin-left: 0; 
+    }
+}
+
+.Testi-text{
+    text-align: center;
+    width: 15rem;
+    margin-left: 9.5rem;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .Testi-text {
+        width: 100%;
+        margin-left: 0; 
+    }
+}
 
 
 
