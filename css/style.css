@@ -64,7 +64,7 @@ img[alt='logo'] {
 :is(body) {
     text-align: center;
     background-color: var(--primary);
-    font-family: 
+    /* font-family: ; */
 }
 
 /*Create three rows*/
@@ -90,6 +90,7 @@ a {
 img[alt='profile'] {
     width: 25rem;
     margin-right: 150px;
+    border-color: var(--tertiary);
 }
 
 .lead {
@@ -117,18 +118,37 @@ img[alt='profile'] {
 
 /* About */
 .card {
-    width: 800px;
-    margin-left: 300px;
+    /* margin-left: 230px; */
     background-color: var(--tertiary)
 }
 
+.cardAbout{
+            width: 900px;
+}
 /* About text */
 .card-text{
     color: var(--secondary);
+    font-size: 2rem;
+}
+/* Resume */
+
+:is(.cardRes, .cardRes3) {
+    background-color: var(--tertiary);
+    width: 30rem;
+    height: 300px;
 }
 
+:is(.cardRes1, .cardRes4){
+    background-color: var(--tertiary);
+    width: 30rem;
+    height: 300px;
+    margin-left: 100px;
+}
 
-
+:is(.cardRes3, .cardRes4){
+   position: relative;
+   top: 9px;
+}
 
 
 
