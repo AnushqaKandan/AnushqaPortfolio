@@ -165,8 +165,24 @@ img[alt='profile1'] {
    top: 10px;
     
 }
+
+img[alt="profile1 joel"] {
+width: 20rem;
+border-radius: 50%;
+margin-left: 7rem;
+position: relative;
+top: 10px;
+}
 @media only screen and (max-width: 767px) {
-    img[alt='profile1'] {
+    img[alt='profile1']  {
+        width: 100%; 
+        margin-left: 0; 
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+    img[alt='profile1 joel']  {
         width: 100%; 
         margin-left: 0; 
 }
@@ -190,6 +206,11 @@ img[alt='profile1'] {
     width: 15rem;
     margin-left: 9.5rem;
 
+}
+
+.Shake-text{
+    width: 25rem;
+   margin-left: 4rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -281,6 +302,8 @@ img[alt='profile1'] {
     
 }
 
+/* Contact Info */
+
 .Contact-text{
     font-weight: bold;
     font-size: 2rem;
@@ -301,3 +324,4 @@ img[alt='profile1'] {
         margin-left: 0; 
     }
 }
+
