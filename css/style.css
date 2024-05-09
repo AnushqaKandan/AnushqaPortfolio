@@ -60,6 +60,9 @@ img[alt='logo'] {
     
 }
 
+section{
+    scroll-margin-block: 6.7rem;
+}
 
 
 /*Grid Layout*/
